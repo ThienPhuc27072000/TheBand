@@ -1,10 +1,10 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 63.9375em) and (max-width: 63.9375em) {
     #content .content-section {
         padding-left: 16px;
         padding-right: 16px;
@@ -13,12 +13,10 @@
     #size-send {
         font-size: 18px;
     }
-
-
 }
 
 /* Tablet & Mobile */
-@media (max-width: 1023px) {
+@media (max-width: 163.9375em) {
     #content .btn {
         padding: 15px 16px;
     }
@@ -29,6 +27,10 @@
 
     #nav .subnav > li {
         padding: 5px 12px;
+    }
+
+    #fix-slider { 
+        margin-top: -44%px;
     }
 
     .contact-info {
@@ -47,7 +49,7 @@
 }
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100%;
@@ -97,6 +99,10 @@
         color: black;
         padding: 14px 41px;
         line-height: 42px;
+    }
+
+    #fix-slider { 
+        margin-top: -39%px;
     }
 
     #content .content-section {
